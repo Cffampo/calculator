@@ -54,10 +54,9 @@ const clear = document.querySelector('#clear');
 digits.forEach(function(button) {
     button.addEventListener('click', function() {
 
-        if(resultDisplayed){
+        if(resultDisplayed && operator === null){
             firstNumber = '';
             secondNumber = '';
-            operator = null;
             display.textContent = '';
             resultDisplayed = false;
         }
