@@ -20,13 +20,13 @@ function multiply(num1, num2){
 }
 
 function divide(num1, num2){
-
     if(num2 === 0){
-        return "ERROR!"
+        return "ERROR!";
     }
 
-    return parseFloat((num1, num2).toFixed(5));
+    return parseFloat((num1 / num2).toFixed(5));
 }
+
 
 function operate(operator, num1, num2){
 
