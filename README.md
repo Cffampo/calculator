@@ -8,7 +8,7 @@ A clean, responsive calculator built using **HTML**, **CSS**, and **Vanilla Java
 
 ## 📸 Preview
 
-![Calculator Screenshot](https://github.com/Cffampo/calculator/raw/main/preview.png)
+![Calculator Screenshot](calculator.png)
 
 ---
 
